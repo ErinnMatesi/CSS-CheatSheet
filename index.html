@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Cheatsheet</title>
+</head>
+<body>
+    <header class="text-center">
+        <h1>CSS Cheatsheet!</h1>
+        <p>Conveniently review and snatch CSS code snippets. Click on any bit of code and have it selected for a quick copy pasta!</p>
+    </header>
+
+    <main>
+        <section class="row">
+            <figure class="code-card">
+                <h2 class="card-header">Button Hover</h2>
+                <p class="card-body">Change the color of your button (or something else) on cursor hover. Add a transition-duration for flair</p>
+                <pre class="code-block"><code>.button:hover {
+    background-color: green;
+    color: white;
+}
+                
+.button {
+    transition-duration: 0.4s;b
+}</code></pre>
+            </figure>
+    
+            <figure class="code-card">
+                <h2 class="card-header">Flexbox</h2>
+                <p class="card-body">Create a flexbox row</p>
+                <pre class="code-block"><code>.row-parent {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.figure-child {
+    flex: 1 0 100%;
+}</code></pre>
+            </figure>
+    
+            <figure class="code-card">
+                <h2 class="card-header">Box Transition - Grow</h2>
+                <p class="card-body">Make your box grow for emphasis!</p>
+                <pre class="code-block"><code>.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+                  
+    .box:hover {
+    width: 200px;
+    height: 200px
+}</code></pre>
+            </figure>
+    
+            <figure class="code-card">
+                <h2 class="card-header">Media Query - Screen</h2>
+                <p class="card-body">Change an element dependent on screen size!</p>
+                <pre class="code-block"><code>@media screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}</code></pre>
+            </figure>
+    
+            <figure class="code-card">
+                <h2 class="card-header">Box Shadow</h2>
+                <p class="card-body">Make your element look 3D by adding a shadow!</p>
+                <pre class="code-block"><code>.box {
+    box-shadow: 5px 10px pink;
+}</code></pre>
+            </figure>
+    
+            <figure class="code-card">
+                <h2 class="card-header">Insta-Button</h2>
+                <p class="card-body">Grab a quick button then customize!</p>
+                <pre class="code-block"><code>.button {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}</code></pre>
+            </figure>
+        </section>
+    </main>
+
+</body>
+</html>
