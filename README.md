@@ -1,7 +1,7 @@
 # CSS-CheatSheet
 A responsive site that gives helpful snippets of CSS code. The code blocks auto-highlight when clicked for easy copy-pasting.
 
-![Image of deployed site](CSS-Cheatsheet.png "Deployed Site")
+![Image of deployed site](./assets/images/CSS-Cheatsheet.PNG)
 
 ## Technologies Used
 - HTML
